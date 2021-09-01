@@ -7,13 +7,7 @@ import { useForm } from 'react-hook-form';
 
 const Contact = () => {
   const [successMessage, setSuccessMessage] = useState('');
-  const {
-    register,
-    handleSubmit,
-    watch,
-    formState: { errors },
-    reset,
-  } = useForm();
+  const { handleSubmit } = useForm();
   const serviceID = 'service_ID';
   const templateID = 'template_Id';
   const userID = 'user_Igru5A2BUCrFoOcIT7lBY';
@@ -45,34 +39,34 @@ const Contact = () => {
 
   return (
     <div id='contact' className='contact-section'>
-      <div class='container'>
-        <div class='row justify-content-center mb-4 pb-3'>
-          <div class='col-md-7 heading-section text-center ftco-animate'>
-            <h1 class='mb-4 contact'>Contact Me</h1>
+      <div className='container'>
+        <div className='row justify-content-center mb-4 pb-3'>
+          <div className='col-md-7 heading-section text-center ftco-animate'>
+            <h1 className='mb-4 contact'>Contact Me</h1>
           </div>
         </div>
 
-        <div class='row d-flex justify-content-center contact-info mb-5'>
-          <div class='col-md-6 col-lg-3 d-flex ftco-animate'>
-            <div class='align-self-stretch box text-center p-4 shadow'>
-              <div class='icon d-flex align-items-center justify-content-center'>
+        <div className='row d-flex justify-content-center contact-info mb-5'>
+          <div className='col-md-6 col-lg-3 d-flex ftco-animate'>
+            <div className='align-self-stretch box text-center p-4 shadow'>
+              <div className='icon d-flex align-items-center justify-content-center'>
                 <CallIcon />
               </div>
               <div>
-                <h3 class='mb-4'>Contact Number</h3>
+                <h3 className='mb-4'>Contact Number</h3>
                 <p>
-                  <a>+1 512-998-4240</a>
+                  <a href=''>+1 512-998-4240</a>
                 </p>
               </div>
             </div>
           </div>
-          <div class='col-md-6 col-lg-4 d-flex ftco-animate'>
-            <div class='align-self-stretch box text-center p-4 shadow'>
-              <div class='icon d-flex align-items-center justify-content-center'>
+          <div className='col-md-6 col-lg-4 d-flex ftco-animate'>
+            <div className='align-self-stretch box text-center p-4 shadow'>
+              <div className='icon d-flex align-items-center justify-content-center'>
                 <EmailIcon />
               </div>
               <div>
-                <h3 class='mb-4'>Email Address</h3>
+                <h3 className='mb-4'>Email Address</h3>
                 <p>
                   <a href='mailto:surendra.kalluri1997@gmail.com'>
                     surendra.kalluri1997@gmail.com
@@ -81,13 +75,13 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div class='col-md-6 col-lg-3 d-flex ftco-animate'>
-            <div class='align-self-stretch box text-center p-4 shadow'>
-              <div class='icon d-flex align-items-center justify-content-center'>
+          <div className='col-md-6 col-lg-3 d-flex ftco-animate'>
+            <div className='align-self-stretch box text-center p-4 shadow'>
+              <div className='icon d-flex align-items-center justify-content-center'>
                 <PlaceIcon />
               </div>
               <div>
-                <h3 class='mb-4'>Location</h3>
+                <h3 className='mb-4'>Location</h3>
                 <p>
                   <a>Texas, United States</a>
                 </p>

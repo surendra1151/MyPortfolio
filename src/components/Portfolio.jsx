@@ -17,7 +17,7 @@ const Portfolio = () => {
           It is a simple indian restaurant application which contains menu based
           on timings.
         </h5>
-        <b className='text-color'>Demo:</b>{' '}
+        <b className='text-color'>Live Demo:</b>{' '}
         <a
           className='hyper-link'
           onClick={() =>
@@ -39,15 +39,25 @@ const Portfolio = () => {
       </>
     );
 
-    PopupboxManager.open({ content });
+    PopupboxManager.open({
+      content,
+      config: {
+        titleBar: {
+          enable: true,
+          text: 'Indian-Restaurant APP',
+        },
+        fadeIn: true,
+        fadeInSpeed: 500,
+      },
+    });
   };
-  const PopupboxConfigRestaurant = {
+  const popupboxConfigRestaurant = {
     titleBar: {
       enable: true,
       text: 'Indian-Restaurant APP',
-      fadeIn: true,
-      fadeInSpeed: 500,
     },
+    fadeIn: true,
+    fadeInSpeed: 500,
   };
 
   const openPopupboxNotes = () => {
@@ -62,7 +72,7 @@ const Portfolio = () => {
           It is a simple Note-taker which can add items list to our local
           storage.
         </h5>
-        <b className='text-color'>Demo:</b>{' '}
+        <b className='text-color'>Live Demo:</b>{' '}
         <a
           className='hyper-link'
           onClick={() =>
@@ -84,15 +94,25 @@ const Portfolio = () => {
       </>
     );
 
-    PopupboxManager.open({ content });
+    PopupboxManager.open({
+      content,
+      config: {
+        titleBar: {
+          enable: true,
+          text: 'Note-Taker APP',
+        },
+        fadeIn: true,
+        fadeInSpeed: 500,
+      },
+    });
   };
-  const PopupboxConfigNotes = {
+  const popupboxConfigNotes = {
     titleBar: {
       enable: true,
       text: 'Note-Taker APP',
-      fadeIn: true,
-      fadeInSpeed: 500,
     },
+    fadeIn: true,
+    fadeInSpeed: 500,
   };
 
   const openPopupboxTic = () => {
@@ -106,7 +126,7 @@ const Portfolio = () => {
         <h5 className='text-description'>
           It is a simple Tic-Tac-Toe game where two players can play.
         </h5>
-        <b className='text-color'>Demo:</b>{' '}
+        <b className='text-color'>Live Demo:</b>{' '}
         <a
           className='hyper-link'
           onClick={() =>
@@ -128,15 +148,17 @@ const Portfolio = () => {
       </>
     );
 
-    PopupboxManager.open({ content });
+    PopupboxManager.open({
+      content,
+    });
   };
-  const PopupboxConfigTic = {
+  const popupboxConfigTic = {
     titleBar: {
       enable: true,
       text: 'Tic-Tac-Toe Game',
-      fadeIn: true,
-      fadeInSpeed: 500,
     },
+    fadeIn: true,
+    fadeInSpeed: 500,
   };
 
   return (
@@ -152,6 +174,7 @@ const Portfolio = () => {
             />
             <div className='overflow'></div>
             <FontAwesomeIcon className='portfolio-icon ' icon={faSearchPlus} />
+            <h4>Indian Restaurant</h4>
           </div>
 
           <div className='portfolio-image-box' onClick={openPopupboxNotes}>
@@ -162,6 +185,7 @@ const Portfolio = () => {
             />
             <div className='overflow-notes'></div>
             <FontAwesomeIcon className='portfolio-icon ' icon={faSearchPlus} />
+            <h4>Note-Taker</h4>
           </div>
 
           <div className='portfolio-image-box' onClick={openPopupboxTic}>
@@ -172,12 +196,13 @@ const Portfolio = () => {
             />
             <div className='overflow'></div>
             <FontAwesomeIcon className='portfolio-icon ' icon={faSearchPlus} />
+            <h4>Tic-Tac-Toe</h4>
           </div>
         </div>
       </div>
-      <PopupboxContainer {...PopupboxConfigRestaurant} />
-      <PopupboxContainer {...PopupboxConfigNotes} />
-      <PopupboxContainer {...PopupboxConfigTic} />
+      <PopupboxContainer />
+      <PopupboxContainer />
+      <PopupboxContainer {...popupboxConfigTic} />
     </div>
   );
 };

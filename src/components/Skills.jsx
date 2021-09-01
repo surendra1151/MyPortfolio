@@ -32,43 +32,45 @@ const Skills = () => {
           </nav>
         </div>
         <div className='col-md-9'>
-          <div id='education' class='page one'>
-            <h2 class='heading'>Education</h2>
-            <div class='resume-wrap d-flex'>
-              <div class='icon d-flex align-items-center justify-content-center'>
-                <i class='fas fa-graduation-cap'></i>
+          <div id='education' className='page one'>
+            <h2 className='heading'>Education</h2>
+            <div className='resume-wrap d-flex'>
+              <div className='icon d-flex align-items-center justify-content-center'>
+                <i className='fas fa-graduation-cap'></i>
               </div>
-              <div class='text ml-5'>
+              <div className='text ml-5'>
                 <h2>Arkansas State University</h2>
-                <span class='position'>Master's in Computer Science</span>
+                <span className='position'>Master's in Computer Science</span>
                 <p>Jonesboro - Arkansas</p>
-                <span class='date'>2020-2021</span>
+                <p>GPA: 3.4/4</p>
+                <span className='date'>2020-2021</span>
               </div>
             </div>
-            <div class='resume-wrap d-flex'>
-              <div class='icon d-flex align-items-center justify-content-center'>
-                <i class='fas fa-graduation-cap'></i>
+            <div className='resume-wrap d-flex'>
+              <div className='icon d-flex align-items-center justify-content-center'>
+                <i className='fas fa-graduation-cap'></i>
               </div>
-              <div class='text pl-3'>
+              <div className='text pl-3'>
                 <h2>R.V.R & J C College Of Engineering</h2>
-                <span class='position'>
+                <span className='position'>
                   Bachelors in Electrical and Electronics Engineering
                 </span>
                 <p>Andhra Pradesh - India</p>
-                <span class='date'>2014-2018</span>
+                <p>GPA: 8.58/10</p>
+                <span className='date'>2014-2018</span>
               </div>
             </div>
           </div>
-          <div id='experience' class='page two'>
-            <h2 class='heading'>Experience</h2>
-            <div class='resume-wrap d-flex'>
-              <div class='icon d-flex align-items-center justify-content-center'>
-                <i class='fas fa-briefcase'></i>
+          <div id='experience' className='page two'>
+            <h2 className='heading'>Experience</h2>
+            <div className='resume-wrap d-flex'>
+              <div className='icon d-flex align-items-center justify-content-center'>
+                <i className='fas fa-briefcase'></i>
               </div>
-              <div class='text pl-3 experience'>
+              <div className='text pl-3 experience'>
                 <h2>Graduate Assistant</h2>
-                <span class='position'>Arkansas State University</span>
-                <p class='date'>Sep 2020 - Jul 2021</p>
+                <span className='position'>Arkansas State University</span>
+                <p className='date'>Sep 2020 - Jul 2021</p>
                 <ul>
                   <li>
                     Responsible for building a plant sale e-commerce website
@@ -89,16 +91,16 @@ const Skills = () => {
                 </ul>
               </div>
             </div>
-            <div class='resume-wrap d-flex'>
-              <div class='icon d-flex align-items-center justify-content-center'>
-                <i class='fas fa-briefcase'></i>
+            <div className='resume-wrap d-flex'>
+              <div className='icon d-flex align-items-center justify-content-center'>
+                <i className='fas fa-briefcase'></i>
               </div>
-              <div class='text pl-3 experience'>
+              <div className='text pl-3 experience'>
                 <h2>Front End Developer</h2>
-                <span class='position'>
+                <span className='position'>
                   Agrometrics Analytics and Technology
                 </span>
-                <p class='date'>Jun 2019 - Nov 2019</p>
+                <p className='date'>Dec 2018 - Nov 2019</p>
                 <ul>
                   <li>
                     Responsible for Developing User Interface for mobile
@@ -128,69 +130,99 @@ const Skills = () => {
               </div>
             </div>
 
-            <div id='skill-set' class='page three'>
-              <h2 class='heading'>Skills</h2>
+            <div id='skill-set' className='page-three'>
+              <h2 className='heading'>Skills</h2>
               <div className='row mb-4 '>
-                <img class='img-fluid' src='images/html.png' title='HTML' />
-                <img class='img-fluid' src='images/css.png' title='CSS' />
                 <img
-                  class='img-fluid'
+                  className='img-fluid'
+                  src='images/html.png'
+                  title='HTML'
+                  alt='HTML'
+                />
+                <img
+                  className='img-fluid'
+                  src='images/css.png'
+                  title='CSS'
+                  alt='CSS'
+                />
+                <img
+                  className='img-fluid'
                   src='images/javascript.png'
                   title='JavaScript'
+                  alt='JavaScript'
                 />
-                <img class='img-fluid' src='images/react.png' title='React' />
                 <img
-                  class='img-fluid'
+                  className='img-fluid'
+                  src='images/react.png'
+                  title='React'
+                  alt='React'
+                />
+                <img
+                  className='img-fluid'
                   src='https://i.ibb.co/7NfB2rt/rn2.png'
                   title='React-Native'
                   id='react-native'
+                  alt='React-Native'
                 />
-                <img class='img-fluid' src='images/node.png' title='NodeJS' />
                 <img
-                  class='img-fluid'
+                  className='img-fluid'
+                  src='images/node.png'
+                  title='NodeJS'
+                  alt='NodeJs'
+                />
+                <img
+                  className='img-fluid'
                   src='images/bootstrap.png'
                   title='Bootstrap'
+                  alt='BootStrap'
                 />
                 <img
-                  class='img-fluid'
+                  className='img-fluid'
                   src='https://img.icons8.com/color/144/000000/redux.png'
                   title='Redux'
+                  alt='Redux'
                 />
                 <img
-                  class='img-fluid'
+                  className='img-fluid'
                   src='https://img.icons8.com/ios-filled/144/000000/jquery.png'
                   title='Jquery'
                   id='jquery'
+                  alt='Jquery'
                 />
                 <img
-                  class='img-fluid'
+                  className='img-fluid'
                   src='https://i.ibb.co/zs6B3yR/sass.png'
                   title='SASS'
                   id='sass'
+                  alt='SASS'
                 />
                 <img
-                  class='img-fluid'
+                  className='img-fluid'
                   src='https://material-ui.com/static/logo_raw.svg'
                   title='Material UI'
                   id='materialui'
+                  alt='MaterialUI'
                 />
                 <img
-                  class='img-fluid'
+                  className='img-fluid'
                   src='https://img.icons8.com/color/144/000000/npm.png'
                   title='NPM'
                   id='npm'
+                  alt='NPM'
                 />
                 <img
-                  class='img-fluid'
+                  className='img-fluid'
                   src='https://i.ibb.co/9smDM6j/pngegg.png'
                   title='Express JS'
                   id='expressjs'
+                  alt='ExpressJs'
                 />
                 <img
-                  class='img-fluid'
+                  className='img-fluid'
                   src='https://i.ibb.co/ZVh01dm/rsz-mong2.png'
                   title='MongoDB'
                   id='mongo'
+                  alt='MongoDB'
                 />
               </div>
             </div>

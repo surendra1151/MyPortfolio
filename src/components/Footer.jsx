@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import Contact from './Contact';
 
 const Footer = () => {
   return (

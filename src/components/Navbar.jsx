@@ -2,7 +2,6 @@ import React from 'react';
 //import { Link } from 'react-router-dom';
 
 import { Link } from 'react-scroll';
-import Portfolio from './Portfolio';
 
 const Navbar = () => {
   return (
@@ -10,11 +9,17 @@ const Navbar = () => {
       <div>
         <nav className='navbar navbar-expand-lg navbar-light bg-dark fixed-top'>
           <div className='container-fluid'>
-            <Link smooth={true} className='navbar-brand' href='/'>
-              Surendra
+            <Link
+              smooth={true}
+              className='navbar-brand'
+              smooth={true}
+              duration={100}
+              to='home'
+            >
+              <p className='logo'>{'{SK}'}</p>
             </Link>
             <button
-              class='navbar-toggler'
+              className='navbar-toggler'
               type='button'
               data-bs-toggle='collapse'
               data-bs-target='#navbarNavAltMarkup'
@@ -23,7 +28,7 @@ const Navbar = () => {
               aria-label='Toggle navigation'
               color='white'
             >
-              <span class='navbar-toggler-icon'></span>
+              <span className='navbar-toggler-icon'></span>
             </button>
             <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
               <div className='navbar-nav'>
@@ -52,7 +57,7 @@ const Navbar = () => {
                   to='skills'
                   duration={100}
                 >
-                  Skills
+                  Professional
                 </Link>
                 <Link
                   smooth={true}
@@ -90,19 +95,11 @@ const Navbar = () => {
                 ></Link>
                 <Link
                   onClick={() =>
-                    window.open('https://twitter.com/kalluri_suri')
+                    window.open('https://www.facebook.com/kalluri.surendra.9/')
                   }
                   target='_blank'
                   rel='nofollow noopener noreferrer'
-                  className='fa fa-twitter'
-                ></Link>
-                <Link
-                  onClick={() =>
-                    window.open('https://www.instagram.com/surendra7731/')
-                  }
-                  target='_blank'
-                  rel='nofollow noopener noreferrer'
-                  className='fa fa-instagram'
+                  className='fa fa-facebook'
                 ></Link>
               </div>
             </div>

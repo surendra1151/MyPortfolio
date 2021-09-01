@@ -20,6 +20,13 @@ body {
   color: blue;
   overflow-x: hidden;
 }
+.navbar .navbar-brand p {
+  margin-bottom: 0 !important;
+  font-size: 30px;
+}
+p {
+  margin-bottom: 0 !important;
+}
 ul {
   list-style: none;
 }
@@ -43,10 +50,10 @@ nav {
   color: #ffac00;
 }
 .navbar-light .navbar-brand {
-  color: #ffac00;
+  color: #ffac00 !important;
 }
 .navbar-light .navbar-brand:hover {
-  color: white;
+  color: white !important;
 }
 .navbar-light .navbar-nav .nav-link:hover {
   color: white;
@@ -154,6 +161,11 @@ link {
 .resume_link li:hover {
   color: #d0d3d4 !important;
 }
+@media (max-width: 640px) {
+  .resume_link li {
+    text-align: center;
+  }
+}
 a {
   color: #ffac00;
 }
@@ -213,6 +225,11 @@ a:hover {
   display: list-item;
   text-align: -webkit-match-parent;
 }
+@media (max-width: 640px) {
+  #skill-set {
+    margin-left: 15px;
+  }
+}
 
 .portfolio-wrapper {
   /* background: var(--light-color); */
@@ -225,6 +242,15 @@ a:hover {
 }
 .image-box-wrapper {
   justify-content: space-around;
+}
+.portfolio-image-box h4 {
+  text-align: center;
+  padding-top: 10px;
+}
+.portfolio-image-box h4:hover {
+  text-align: center;
+  padding-top: 10px;
+  color: var(--regular-color);
 }
 .img-fluid {
   max-width: 70px;
