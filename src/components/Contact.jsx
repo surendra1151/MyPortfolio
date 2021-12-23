@@ -55,7 +55,7 @@ const Contact = () => {
               <div>
                 <h3 className='mb-4'>Contact Number</h3>
                 <p>
-                  <a href=''>+1 512-998-4240</a>
+                  <a>+1 512-998-4240</a>
                 </p>
               </div>
             </div>
@@ -68,8 +68,8 @@ const Contact = () => {
               <div>
                 <h3 className='mb-4'>Email Address</h3>
                 <p>
-                  <a href='mailto:surendra.kalluri1997@gmail.com'>
-                    surendra.kalluri1997@gmail.com
+                  <a href='mailto:krishna.kalluri13@gmail.com'>
+                    krishna.kalluri13@gmail.com
                   </a>
                 </p>
               </div>

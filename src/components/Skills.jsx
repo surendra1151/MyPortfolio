@@ -100,7 +100,7 @@ const Skills = () => {
                 <span className='position'>
                   Agrometrics Analytics and Technology
                 </span>
-                <p className='date'>Dec 2018 - Nov 2019</p>
+                <p className='date'>Jun 2019 - Nov 2019</p>
                 <ul>
                   <li>
                     Responsible for Developing User Interface for mobile

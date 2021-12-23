@@ -423,6 +423,9 @@ a:hover {
 .contact-section .contact-info p a {
   color: #ffac00;
 }
+.contact-section .contact-info p a:hover {
+  color: #d0d3d4;
+}
 .contact {
   color: #ffac00;
 }
