@@ -98,14 +98,12 @@ const Skills = () => {
               <div className='text pl-3 experience'>
                 <h2>Front End Developer</h2>
                 <span className='position'>
-                  Agrometrics Analytics and Technology
+                  Rigas Enterprise IT Private Limited
                 </span>
-                <p className='date'>Jun 2019 - Nov 2019</p>
+                <p className='date'>Jun 2 - Nov 2019</p>
                 <ul>
                   <li>
-                    Responsible for Developing User Interface for mobile
-                    application by integrating several modules using
-                    React-Native
+                    Design, develop, and test a website that fulfills accessibility and web browser standards using HTML5, CSS3, Bootstrap, JavaScript, jQuery, and React.JS, Node, Express.
                   </li>
                   <li>
                     Engineered login front end functionality - including RESTful
@@ -114,13 +112,11 @@ const Skills = () => {
                     application
                   </li>
                   <li>
-                    Responsible for design and development of various components
-                    such as tab bars, push notifications, sign in/out features,
-                    and navigation using react-native
+                    worked on the bug-fixing team to fix significant bugs in ReactJS, Node, and MongoDB for report generation
                   </li>
                   <li>
-                    Responsible for Developing Support Pages for a web
-                    application like FarmPro using React.Js
+                    Involved in all the stages of Software Development Life Cycle like Application Design, Development, Debugging and
+                    Testing all applications.
                   </li>
                   <li>
                     Responsible for developing Restful Webservices using spring
