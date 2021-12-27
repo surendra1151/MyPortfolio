@@ -100,7 +100,7 @@ const Skills = () => {
                 <span className='position'>
                   Rigas Enterprise IT Private Limited
                 </span>
-                <p className='date'>Jun 2 - Nov 2019</p>
+                <p className='date'>Jun 2018 - Nov 2019</p>
                 <ul>
                   <li>
                     Design, develop, and test a website that fulfills accessibility and web browser standards using HTML5, CSS3, Bootstrap, JavaScript, jQuery, and React.JS, Node, Express.
