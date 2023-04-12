@@ -1,6 +1,7 @@
 import React from 'react';
 import Typist from 'react-typist';
 import Typed from 'react-typed';
+
 const Header = () => {
   return (
     <div id='home' className='header-wrap'>
@@ -27,6 +28,7 @@ const Header = () => {
           className='btn-main-offer'
           onClick={() => window.open('resume/krishna-kalluri.pdf')}
           target='_blank'
+          
         >
           Download Resume
         </a>

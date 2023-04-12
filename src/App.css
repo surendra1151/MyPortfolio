@@ -123,6 +123,8 @@ link {
   text-transform: uppercase;
   padding: 10px 12px 12px 12px;
   margin: 2rem;
+  cursor: pointer;
+  border-radius: 5px;
 }
 .tsparticles-canvas-el {
   position: absolute;
